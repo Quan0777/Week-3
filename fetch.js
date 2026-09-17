@@ -1,4 +1,4 @@
-const dataTable = document.getElementById("data")
+const dataTable = document.querySelector("#data tbody")
 
 async function Table() {
     const url = "https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/vaerak/11ra.px"
